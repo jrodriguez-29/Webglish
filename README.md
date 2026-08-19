@@ -1,24 +1,20 @@
-# Sistema de Monitoreo Ambiental Escolar
+#Webglish 
 
 ## Integrantes del Equipo
-* Estudiante A - Grado 11-1 (Desarrollador Front-end)
-* Estudiante B - Grado 11-1 (Técnico en Hardware)
+Karle Castro y Janna Rodriguez: Desarrollador Front-end y Documentador
+Jesus Alvarez y Luis Saavedra: Técnico en Hardware y Gestión de Datos
 
 ## Descripción General
-Portal web oficial del proyecto de grado enfocado en el registro y visualización en tiempo real de datos de temperatura y humedad en las aulas de clase.
+Diseñar e implementar una pagina web funcional de aprendizaje de ingles basado en hardware libre y desarrollo web para la comunidad educativa.
 
 ## Problema Identificado
-Las altas temperaturas en los salones de la institución afectan la atención y el rendimiento académico de los estudiantes. Actualmente no se cuenta con mediciones exactas ni registros para gestionar mejoras en la infraestructura.
+los estudiantes presentan ausencia de conocimiento frente al nivel de ingles en el que se ecnuentran, siendo este un obstaculo para avanzar en el idioma
 
 ## Objetivo General
-Diseñar e implementar un prototipo funcional de monitoreo ambiental basado en hardware libre y desarrollo web para la comunidad educativa.
+Webglish surge como respuesta a estudiantes de idiomas que carecen de herramientas de autoevaluación precisas que expliquen sus fallas pedagogicas. Esta ausencia de retroalimentación detallada genera desmotivación constante, al desconocer temas/competencias para avanzar de nivel.
 
 ## Solución Técnica y Requerimientos
-Implementaremos una red de sensores DHT11 conectados a microcontroladores para medir variables ambientales y enviarlas a la interfaz web.
-* **Sensor:** DHT11 (Temperatura y Humedad)
-* **Hardware:** Microcontrolador ESP32 / Arduino con conexión Wi-Fi
-* **Frontend:** Aplicación web en React.js desarrollada con Vite
-* **Estilos:** CSS3 personalizado con la paleta institucional
+implementaremos una pagina web capaz de hacer un examen el cual arrojara como resultados el nivel en el idioma el cual el examinado se encuentra, para luego metodos para avanzar el idioma.
 
 ## Tecnologías Utilizadas
 * React.js
