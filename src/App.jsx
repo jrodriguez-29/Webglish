@@ -13,12 +13,10 @@ function Encabezado() {
 function Presentacion() {
   return (
     <section className="card-box">
-      <h2>Sistema de Monitoreo Ambiental Escolar</h2>
+      <h2>Webglish</h2>
       <p><strong>Estado del Proyecto:</strong> Fase de Desarrollo y Prototipado</p>
       <p>
-        Este proyecto surge como respuesta a la necesidad de controlar la temperatura y la calidad
-        del aire en los espacios cerrados de nuestra institución, garantizando un entorno adecuado
-        para el aprendizaje.
+        Este proyecto surge como respuesta aquellos estudiantes que desconocen su nivel de ingles y requieren metodos para avanzar en el idioma.
       </p>
     </section>
   );
@@ -29,8 +27,7 @@ function Objetivos() {
     <section className="card-box">
       <h3>Objetivo General</h3>
       <p>
-        Diseñar e implementar un prototipo funcional de monitoreo ambiental basado en hardware libre
-        y desarrollo web para la comunidad educativa.
+        Diseñar e implementar una pagina web funcional de aprendizaje de ingles basado en hardware libre y desarrollo web para la comunidad educativa.
       </p>
     </section>
   );
@@ -40,8 +37,8 @@ function Integrantes() {
   return (
     <section className="card-box">
       <h3>Equipo de Trabajo</h3>
-      <p>Estudiante A: Desarrollador Front-end y Documentador</p>
-      <p>Estudiante B: Técnico en Hardware y Gestión de Datos</p>
+      <p>Karle Castro y Janna Rodriguez: Desarrollador Front-end y Documentador</p>
+      <p>Jesus Alvarez y Luis Saavedra: Técnico en Hardware y Gestión de Datos</p>
     </section>
   );
 }
@@ -50,14 +47,8 @@ function SolucionTecnica() {
     <section className="card-box">
       <h3>Solución Técnica</h3>
       <p>
-        Implementaremos una red de sensores DHT11 conectados a microcontroladores
-        para medir temperatura y humedad en tiempo real, enviando los datos a una plataforma web.
+        implementaremos una pagina web capaz de hacer un examen el cual arrojara como resultados el nivel en el idioma el cual el examinado se encuentra,para luego metodos para avanzar el idioma.
       </p>
-      <ul>
-        <li>Sensor de temperatura y humedad DHT11</li>
-        <li>Microcontrolador ESP32 / Arduino con Wi-Fi</li>
-        <li>Interfaz web responsiva en React</li>
-      </ul>
     </section>
   );
 }
@@ -77,5 +68,3 @@ export default function App() {
     </div>
   );
 }
-
-
