@@ -45,7 +45,22 @@ function Integrantes() {
     </section>
   );
 }
-
+function SolucionTecnica() {
+  return (
+    <section className="card-box">
+      <h3>Solución Técnica</h3>
+      <p>
+        Implementaremos una red de sensores DHT11 conectados a microcontroladores
+        para medir temperatura y humedad en tiempo real, enviando los datos a una plataforma web.
+      </p>
+      <ul>
+        <li>Sensor de temperatura y humedad DHT11</li>
+        <li>Microcontrolador ESP32 / Arduino con Wi-Fi</li>
+        <li>Interfaz web responsiva en React</li>
+      </ul>
+    </section>
+  );
+}
 export default function App() {
   return (
     <div className="main-container">
@@ -53,6 +68,7 @@ export default function App() {
       <main>
         <Presentacion />
         <Objetivos />
+        <SolucionTecnica />         
         <Integrantes />
       </main>
       <footer className="footer-box">
@@ -61,3 +77,5 @@ export default function App() {
     </div>
   );
 }
+
+

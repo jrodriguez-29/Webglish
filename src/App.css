@@ -1,34 +1,38 @@
-main-container {
+.main-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
-  color: #333333;
+  color: #03658C;
 }
 
 .header-box {
   text-align: center;
-  border-bottom: 2px solid #0056b3;
+  border-bottom: 3px solid #DC3C22;
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
 
 .card-box {
-  background-color: #f8f9fa;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
+  background-color: #FBF5DE;
+  border: 1px solid #EAC8A6;
+  border-radius: 6px;
   padding: 15px;
   margin-bottom: 15px;
 }
 
 .card-box h2, .card-box h3 {
-  color: #0056b3;
+  color: #DC3C22;
   margin-top: 0;
+}
+
+.card-box ul {
+  padding-left: 20px;
 }
 
 .footer-box {
   text-align: center;
   margin-top: 30px;
   font-size: 14px;
-  color: #666666;
+  color: #03658C;
 }
